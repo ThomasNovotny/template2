@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     422960130190575617       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Four basic building blocks"      # Project title
+  author:       "Thomas novotny"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "The 1st input and the 1st output is connected to an inverter. The 2nd and 3rd input and the 2nd and 3rd output is connected to an AND-gate. The 3rd and 4th inputs and the 3rd and 4th output is connected to an OR-gate. The last 2 inputs and the 2nd-last output is connected to an Earle-latch, where the last input bit is the Enable-signal."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,23 +15,23 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
+  ui[0]: "NOT-gate input"
+  ui[1]: "1st AND-gate input"
+  ui[2]: "2nd AND-gate input"
+  ui[3]: "1st OR-gate input"
+  ui[4]: "2nd OR-gate input"
   ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[6]: "Data input for the Earle-latch"
+  ui[7]: "Enable input for the Earle-latch"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
+  uo[0]: "NOT-gate output"
+  uo[1]: "AND-gate output"
+  uo[2]: "OR-gate output"
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
-  uo[6]: ""
+  uo[6]: "Earle-latch output"
   uo[7]: ""
 
   # Bidirectional pins
