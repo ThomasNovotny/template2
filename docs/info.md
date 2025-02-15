@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The 1st input and the 1st output is connected to an inverter. The 2nd and 3rd input and the 2nd and 3rd output is connected to an AND-gate. The 3rd and 4th inputs and the 3rd and 4th output is connected to an OR-gate. The last 2 inputs and the 2nd-last output is connected to an Earle-latch, where the last input bit is the Enable-signal.
 
 ## How to test
 
-Explain how to use your project
+For the NOT-gate, AND-gate and OR-gate, test every input combination.
+For the Earle latch, test if the latch can hold onto a 0, and test if the latch can hold onto a 1.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No addons.
