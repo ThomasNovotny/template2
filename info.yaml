@@ -15,23 +15,23 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "NOT-gate input"
-  ui[1]: "1st AND-gate input"
-  ui[2]: "2nd AND-gate input"
-  ui[3]: "1st OR-gate input"
-  ui[4]: "2nd OR-gate input"
+  ui[0]: "IN0"
+  ui[1]: "IN1"
+  ui[2]: "IN2"
+  ui[3]: "IN3"
+  ui[4]: "IN4"
   ui[5]: ""
-  ui[6]: "Data input for the Earle-latch"
-  ui[7]: "Enable input for the Earle-latch"
+  ui[6]: "IN6"
+  ui[7]: "IN7"
 
   # Outputs
-  uo[0]: "NOT-gate output"
-  uo[1]: "AND-gate output"
-  uo[2]: "OR-gate output"
+  uo[0]: "OUT0"
+  uo[1]: "OUT1"
+  uo[2]: "OUT2"
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
-  uo[6]: "Earle-latch output"
+  uo[6]: "OUT6"
   uo[7]: ""
 
   # Bidirectional pins
